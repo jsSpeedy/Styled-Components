@@ -1,13 +1,13 @@
 import Header from "./Header";
 import styled from "styled-components";
 
-const StyledHeader = styled(Header)`
-    border: 10px solid #f00;
+const BodyDiv = styled.div`
+   
 `;
 
 export default ({ title }) => (
-    <div>
+    <BodyDiv>
         <h1>{title}</h1>
-        <StyledHeader />
-    </div>
+        <Header/>
+    </BodyDiv>
 );
